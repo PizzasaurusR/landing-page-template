@@ -1,0 +1,136 @@
+
+/* Universal Selectors */
+a{
+    margin: 10px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+/* class selectors */
+
+.header-container{
+    /* parallax image */
+background-image: url("img/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg");
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+min-height: 75vh;
+justify-content: space-between;
+}
+
+.navbar{
+    display: flex;
+    background-color: transparent;
+    color: aliceblue;
+    padding: 1em 5em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-link{
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.header{
+    padding: 1em 5em;
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    min-height: 50vh;
+    justify-content: space-between;
+}
+
+.header-right > img{
+    max-width: 200px;
+    max-width: 300px;
+}
+
+.header-left{
+padding: 2em;
+}
+
+.info-container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 5em 5em;
+background-color: black;
+color: aliceblue;
+text-align: center;
+}
+
+.info-tab{
+    display: flex;
+}
+.pic-box{
+    display: flex;
+}
+
+.pic > img{
+    max-width: 100px;
+    max-height: 100px;
+    border: 5px solid black;
+    border-radius: 15%;
+}
+
+.pic > p{
+    width: 80%;
+    padding: 0 10px;
+}
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    padding: 1em 5em;
+    justify-content: center;
+    min-height: 50vh;
+    background-image: url("img/alexander-andrews-eNoeWZkO7Zc-unsplash.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    /* &:before {
+        content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
+            opacity: .6; 
+    } */
+}
+
+.quote{
+color: aliceblue;
+font-size: 32px;
+}
+
+.quote-name{
+    text-align: right;
+    color: aliceblue;
+    font-size: 24px;
+}
+
+.call-to-action-tab{
+    padding: 1em 5em;
+    background-color: black;
+}
+
+.call-to-action{
+    background-image: url("img/graham-holtshausen-fUnfEz3VLv4-unsplash.jpg");
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 2em 4em;
+    align-items: center;
+    display: flex;
+    gap: 3em;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    background-color: black;
+}
